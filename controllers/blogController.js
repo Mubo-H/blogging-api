@@ -1,5 +1,5 @@
-const Blog = require("../models/Blog");
-const User = require("../models/User");
+const Blog = require("../models/blog");
+const User = require("../models/user");
 
 // Helper function to calculate reading time (1 minute per 250 words)
 const calculateReadingTime = (body) => {
